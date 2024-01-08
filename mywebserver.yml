@@ -1,6 +1,7 @@
 ---
 - hosts: all
   become: yes
+  gather_facts: yes
   tasks:
   - name: i want to install apache2 webserver on ubuntu nodes 
     apt:
@@ -12,5 +13,5 @@
        name: apache2
        state: stopped
 
-       
+
     
