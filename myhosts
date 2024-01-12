@@ -23,9 +23,5 @@
 172.31.3.187
 
 
-[mywebservers:vars]
-Key=value
-myjavapackonubuntu= apache2
-myjavapackonredhat= httpd
 
 
