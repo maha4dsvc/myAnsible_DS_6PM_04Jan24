@@ -25,7 +25,7 @@
 
 [mywebservers:vars]
 Key=value
-myjavapackonubuntu= apache22222
+myjavapackonubuntu= apache2
 myjavapackonredhat= httpd
 
 
