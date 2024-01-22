@@ -8,4 +8,4 @@
 
   - name: display myfirsttastresult  value 
     debug: 
-      msg: "myfirsttastresult"
+      msg: "{{myfirsttastresult}}"
