@@ -25,7 +25,7 @@
        force_basic_auth: yes
 
 
-  handler: 
+  handlers: 
   - name: startwebserver
     service: 
       name: apache2
