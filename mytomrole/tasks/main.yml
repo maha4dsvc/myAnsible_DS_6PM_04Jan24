@@ -1,2 +1,10 @@
 ---
 # tasks file for mytomrole
+- include_tasks: tomuser.yml
+- include_tasks: installjava.yml
+- include_tasks: download.yml
+- include_tasks: permisions.yml
+- include_tasks: dashboard.yml
+- include_tasks: starttomcat.yml
+
+
